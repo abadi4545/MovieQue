@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorPrimary">#F37335</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="NoAnimTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+       <item name="android:windowAnimationStyle">@null</item>
+    <item name="colorPrimary">#F37335</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+
+
+
+
+    </style>
+
+
+
+    <!--<style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="android:windowNoTitle">true</item>995544 40d2ff -->
+        <!--<item name="android:windowActionBar">false</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+    <!--</style>-->
+
+</resources>
