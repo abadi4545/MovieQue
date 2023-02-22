@@ -18,62 +18,62 @@
             tools:ignore="GoogleAppIndexingWarning">
         <activity android:name="com.arkam.popularmovies.MainActivityFavourite">
         </activity>
-        <activity android:name="com.arkam.popularmovies.SearchActivities.SearchActivity"
+        <activity android:name="com.arkam.popularmovies.searchActivities.SearchActivity"
                 android:screenOrientation="portrait"
                 android:theme="@style/NoAnimTheme">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.arkam.popularmovies.MovieActivites.MainActivity"/>
+                    android:value="com.arkam.popularmovies.movieActivites.MainActivity"/>
         </activity>
         <activity
-                android:name="com.arkam.popularmovies.PeopleActivities.MainActivityPeople2"
+                android:name="com.arkam.popularmovies.peopleActivities.MainActivityPeopleSecond"
                 android:theme="@style/NoAnimTheme">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.arkam.popularmovies.PeopleActivities.MainActivityPeople"/>
+                    android:value="com.arkam.popularmovies.peopleActivities.MainActivityPeople"/>
         </activity>
         <activity
-                android:name="com.arkam.popularmovies.TvActivities.MainActivitytv2"
+                android:name="com.arkam.popularmovies.tvActivities.MainActivitytvSecond"
                 android:theme="@style/NoAnimTheme">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.arkam.popularmovies.TvActivities.MainActivitytv"/>
+                    android:value="com.arkam.popularmovies.tvActivities.MainActivitytv"/>
         </activity>
         <activity
-                android:name="com.arkam.popularmovies.MovieActivites.viewallact"
+                android:name="com.arkam.popularmovies.movieActivites.ViewAllActivity"
                 android:screenOrientation="portrait"
                 android:theme="@style/NoAnimTheme">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.arkam.popularmovies.MovieActivites.MainActivity"/>
+                    android:value="com.arkam.popularmovies.movieActivites.MainActivity"/>
         </activity>
         <activity
-                android:name="com.arkam.popularmovies.PeopleActivities.MainActivityPeople"
+                android:name="com.arkam.popularmovies.peopleActivities.MainActivityPeople"
                 android:theme="@style/AppTheme">
 
         </activity>
         <activity
-                android:name="com.arkam.popularmovies.TvActivities.MainActivitytv"
+                android:name="com.arkam.popularmovies.tvActivities.MainActivitytv"
                 android:theme="@style/AppTheme">
         </activity>
         <activity
-                android:name="com.arkam.popularmovies.MovieActivites.activity_second"
+                android:name="com.arkam.popularmovies.movieActivites.ActivitySecond"
                 android:screenOrientation="portrait"
                 android:theme="@style/NoAnimTheme">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.arkam.popularmovies.MovieActivites.MainActivity"/>
+                    android:value="com.arkam.popularmovies.movieActivites.MainActivity"/>
         </activity>
         <activity
-                android:name="com.arkam.popularmovies.TvActivities.viewallacttv"
+                android:name="com.arkam.popularmovies.tvActivities.ViewAllActivityTv"
                 android:screenOrientation="portrait"
                 android:theme="@style/NoAnimTheme">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.arkam.popularmovies.TvActivities.MainActivitytv"/>
+                    android:value="com.arkam.popularmovies.tvActivities.MainActivitytv"/>
         </activity>
         <activity
-                android:name="com.arkam.popularmovies.MovieActivites.MainActivity"
+                android:name="com.arkam.popularmovies.movieActivites.MainActivity"
                 android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
